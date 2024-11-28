@@ -1,0 +1,4 @@
+This is in primary form, not user friendly where you just have prepare input file and run pyhton ececutablesource code.
+Rather it asks for inputs in the terminal itself.
+The high symmetric paths and other parameters related to the plots can be modified directly from the source code.
+The basic strucutre of the code is very similar to that of woSOC case.
