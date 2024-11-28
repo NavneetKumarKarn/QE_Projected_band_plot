@@ -1,5 +1,7 @@
-Prepare the input file as described above
-! Input file description for orbital projected plots
+Required files: pbands.projwfc_up(output of projwfc.x), bands.out.gnu(output of bands.x) and input.in
+orb_proj_file.py and plot1.py are python source code executables.
+Prepare the input file as described below
+! Input file(input.in) description for orbital projected plots
 1. Number of bands (bands calculation output file)
 2. Number of total k-points(pbands.projwfc_up file last value of first column)
 3. Fermi energy calculated (Found in SCF/NSCF output file
