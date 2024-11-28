@@ -1,8 +1,12 @@
-!input file description for orbital projected plots
+Prepare the input file as described above
+! Input file description for orbital projected plots
 1. Number of bands (bands calculation output file)
 2. Number of total k-points(pbands.projwfc_up file last value of first column)
 3. Fermi energy calculated (Found in SCF/NSCF output file
-4. Number of high symmetric point (Nhsp)
+4. Number of high symmetric points (Nhsp)
 5. High symmetric point(HPS) position starts and end at 5+Nhsp-1 line
-6. Next two line are for y_min and y_max
-7. Next line is Size of the points in the plot.
+6. Next two lines are for y_min and y_max
+7. The next line is the Size of the points in the plot.
+
+Now First run orb_proj_file.py which generates the separate band projection files.
+Then run plot1.py file to get the orbital projected band plots.
