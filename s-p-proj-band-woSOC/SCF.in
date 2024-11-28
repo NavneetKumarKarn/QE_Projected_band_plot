@@ -1,0 +1,30 @@
+!SCF
+&CONTROL  
+outdir='.\outdir'
+calculation='scf'
+pseudo_dir='C:/Users/navne/Downloads/quantumVITAS-0.3.0_windows/quantumVITAS-0.3.0_windows/pseudoPotLibs/SSSP_v1.1/SSSP_efficiency'
+/
+&SYSTEM  
+ibrav=5
+A=4.131000498051291
+cosAB=0.585425
+nat=2
+ntyp=1
+ecutwfc=35.0
+ecutrho=280.0
+occupations='smearing'
+degauss=0.02
+smearing='gaussian'
+/
+&ELECTRONS  
+conv_thr=1.0E-10
+/
+ATOMIC_SPECIES  
+As  74.9215956  As.pbe-n-rrkjus_psl.0.2.UPF
+
+ATOMIC_POSITIONS (alat) 
+As  0.0  0.0  0.583121388305376  1  1  1
+As  0.0  0.0  1.968846611694624  1  1  1
+
+K_POINTS (automatic) 
+ 8 8 8 0 0 0
